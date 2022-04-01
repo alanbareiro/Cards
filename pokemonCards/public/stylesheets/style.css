@@ -1,0 +1,22 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+.pokemon-cards{
+  width: 18rem;
+  border: 0.1px solid gray;
+  padding:0.4rem 0.4rem;
+ 
+}
+.pokemon-container{
+  padding:0.4rem 0.4rem;
+  
+}
+
+
