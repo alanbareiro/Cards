@@ -2,9 +2,11 @@
     
     <div class="container pokemon-container">
         <div class="row">
+            <div class="col-md-12 pokemon-flex">
             <% pokemons.forEach((pokemon,i)=> { %>
+
                 <% let is=i + 1 %>
-            <div class="col-sm4">
+            <div class="col-md-4 big-card">
                 <div class="cards pokemon-cards">
                     <div class="card-header">
                     <h4 class="card-title">Num: <%=is%> </h4>
@@ -13,7 +15,7 @@
                 <div class="card-body">
                     <h5 class="card-title"> Name: <%= pokemon.name %> 
                     </h5>
-                    <p class="card-text">Description de pokemons: Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt delectus voluptas eos sequi error, alias nulla enim quae atque ducimus tempore repellat quas quaerat. Sed cum soluta sint nulla voluptatum?</p>
+                    <p class="card-text">Description de pokemons:  Sed cum soluta sint nulla voluptatum?</p>
                 </div>
                 <div class="card-footer">
                     <p class="card-text">Last descript</p>
@@ -23,6 +25,7 @@
             </div>
             <% }) %>
         </div>
+    </div>
     </div>
 
     

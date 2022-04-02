@@ -8,15 +8,33 @@ a {
   color: #00B7FF;
 }
 
+.big-card{
+  padding:0.3rem 0.3rem;
+  
+}
+
 .pokemon-cards{
-  width: 18rem;
+  width: 100%;
   border: 0.1px solid gray;
-  padding:0.4rem 0.4rem;
- 
+  border-radius:7px;
+  margin: 0.2rem 0.2rem;
+  box-shadow:1px 1px 1px black;
+  
+
 }
 .pokemon-container{
   padding:0.4rem 0.4rem;
   
 }
+
+.pokemon-flex{
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
 
 
