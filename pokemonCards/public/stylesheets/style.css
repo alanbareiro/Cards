@@ -1,26 +1,88 @@
-body {
-
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
-
+section {
+  
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Overpass', sans-serif; 
+  background-color: #DFDFDF
 }
 
 a {
-  color: #00B7FF;
+  
+  font-family: 'Overpass', sans-serif; 
+}
+p{
+  font-family: 'Overpass', sans-serif; 
 }
 
+h4{
+  font-family: 'Overpass', sans-serif; 
+}
+h5{
+  font-family: 'Overpass', sans-serif; 
+}
+
+.nav-complete {
+  padding:0.5rem;
+  opacity: 0.97;
+}
+
+.logo{
+  width:15%;
+
+}
+
+.search-nav {
+  display:flex;
+}
+
+.search{
+  margin:  10px;
+}
+.image-back{
+  background-image:url('../images/back-img.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size:cover;
+  height: 150px;
+ 
+  /*
+  */
+}
 .big-card{
-  padding:0.3rem 0.3rem;
+  padding:0.3rem 0.3rem; 
+}
+.pokemon-cards{
+  width: 75%;
+  border: 5px solid #D5A100;
+  border-radius:7px;
+  margin: 0.3rem 0.2rem;
+  box-shadow:1px 1px 1px black;
+  background-color: #0075BE;
   
+
 }
 
-.pokemon-cards{
-  width: 100%;
-  border: 0.1px solid gray;
-  border-radius:7px;
-  margin: 0.2rem 0.2rem;
-  box-shadow:1px 1px 1px black;
-  
+.poke-name{
+  text-transform:uppercase;
+  padding:2px 2px 2px 2px;
+  margin: 3px;
+}
+.card-name{
+  display:flex;
+  justify-content: space-between;
 
+}
+/*.hp{
+  margin-left:30px
+}*/
+.pokeball{
+  width:12%;
+  height: 15%;
+}
+
+.card-img-top{
+  border: 5px solid #D5A100 ;
+  border-radius:7px;
 }
 .pokemon-container{
   padding:0.4rem 0.4rem;

@@ -1,25 +1,28 @@
-<section>
+<section >
     
     <div class="container pokemon-container">
         <div class="row">
             <div class="col-md-12 pokemon-flex">
             <% pokemons.forEach((pokemon,i)=> { %>
-
                 <% let is=i + 1 %>
             <div class="col-md-4 big-card">
                 <div class="cards pokemon-cards">
                     <div class="card-header">
-                    <h4 class="card-title">Num: <%=is%> </h4>
-                    <img src="/images/bulbasor.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title"> Name: <%= pokemon.name %> 
-                    </h5>
-                    <p class="card-text">Description de pokemons:  Sed cum soluta sint nulla voluptatum?</p>
-                </div>
-                <div class="card-footer">
-                    <p class="card-text">Last descript</p>
-                </div>
+                        <div class="card-name">
+                            <h5 class="card-title poke-name"><%=pokemon.name %>  </h5>
+                            <h6 class="hp">80HP</h6>
+                            <img class="pokeball" src="/images/Pokeball-1.png" alt="pokeball">
+                        </div>
+                        <img src="/images/bulbasor.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">  
+                        </h5>
+                        <p class="card-text">Description de pokemons:  Sed cum soluta sint nulla voluptatum?</p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-text">Last descript</p>
+                    </div>
                 </div>
             
             </div>
