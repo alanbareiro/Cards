@@ -22,11 +22,11 @@ h5{
 
 .nav-complete {
   padding:0.5rem;
-  opacity: 0.97;
+  
 }
 
 .logo{
-  width:15%;
+  width:10%;
 
 }
 
@@ -34,20 +34,40 @@ h5{
   display:flex;
 }
 
+.img{
+  width:100%
+}
+
 .search{
   margin:  10px;
+  
 }
 .image-back{
   background-image:url('../images/back-img.png');
   background-repeat: no-repeat;
-  background-position: top center;
+  
   background-attachment: scroll;
   background-size:cover;
-  height: 150px;
+  height: 170px;
  
   /*
   */
 }
+.image-back-body{
+  background-image:url('../images/descarga.jfif');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size:cover;
+  height:2000px;
+ 
+  /*
+  */
+}
+.img-carousel{
+  height: 670px;
+}
+
 .big-card{
   padding:0.3rem 0.3rem; 
 }
@@ -58,8 +78,6 @@ h5{
   margin: 0.3rem 0.2rem;
   box-shadow:1px 1px 1px black;
   background-color: #0075BE;
-  
-
 }
 
 .poke-name{
