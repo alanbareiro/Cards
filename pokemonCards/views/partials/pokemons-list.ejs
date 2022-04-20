@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row margin-top">  
+    <% pokemons.forEach((pokemon,i)=> { %>
+        <% let is=i + 1 %>
+        <div class="col-md-4 card-info">
+            <div class="card margin-top center " >
+                <div class="card-header ">
+                    <a class="card-title poke-name " href="/pokemon/<%= is%>"><%=pokemon.name %></a>
+                </div>
+            </div>
+        </div>
+    <% }) %>
+</div>
+</div>

@@ -26,7 +26,7 @@ h5{
 }
 
 .logo{
-  width:10%;
+  width:15%;
 
 }
 
@@ -39,19 +39,37 @@ h5{
 }
 
 .search{
-  margin:  10px;
+  margin:10px;
+  width:40%;
   
 }
+
+
+.margin-top{
+  margin-top:1.2rem;
+  margin-bottom:1.2rem
+}
+.center{
+  text-align: center
+}
+
+
 .image-back{
+ 
   background-image:url('../images/back-img.png');
-  background-repeat: no-repeat;
-  
+  background-position: center bottom; /*Para que la imagen aparezca desde abajo*/
+  background-size: auto 900px; /*o las medidas que quieras darle a la imagen*/
+  background-repeat: repeat-x; /*Para que solo se repita a los lados y no hacia arriba*/ 
+  height: 250px;
+  opacity: 0.87;
+  /*background-repeat: no-repeat;
   background-attachment: scroll;
   background-size:cover;
-  height: 170px;
- 
-  /*
-  */
+ */
+}
+.card-info{
+  border-radius:1rem;
+  
 }
 .image-back-body{
   background-image:url('../images/descarga.jfif');
@@ -60,19 +78,16 @@ h5{
   background-attachment: scroll;
   background-size:cover;
   height:2000px;
- 
-  /*
-  */
 }
 .img-carousel{
   height: 670px;
 }
 
 .big-card{
-  padding:0.3rem 0.3rem; 
+  padding:0.4rem 0.4rem; 
 }
 .pokemon-cards{
-  width: 75%;
+  width: 80%;
   border: 5px solid #D5A100;
   border-radius:7px;
   margin: 0.3rem 0.2rem;
@@ -101,6 +116,7 @@ h5{
 .card-img-top{
   border: 5px solid #D5A100 ;
   border-radius:7px;
+  background-color: #FFFFFF;
 }
 .pokemon-container{
   padding:0.4rem 0.4rem;

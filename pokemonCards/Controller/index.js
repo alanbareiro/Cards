@@ -23,11 +23,16 @@ module.exports = {
         let pokeId = req.params.id;
         let pokemon = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokeId}/`)
         .then(response => response.json()).then(api=>{
-            // 3 abilities del pokemon por id
             let abilities = api.abilities;
-            console.log(api);
+            let name = api.name;
+            let image = api.sprites.other.dream_world.front_default;
+            let hp = api.stats;
+            let type = api.types;
+            //console.log(image);
+            //console.log(name);
             //console.log(abilities);
-            res.render('pokemon',{abilities})
+            //console.log(hp);
+            res.render('pokemon',{abilities,name,image,hp,type})
         })
         
 
